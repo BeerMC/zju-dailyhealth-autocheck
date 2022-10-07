@@ -7,7 +7,7 @@ on:
   watch:
     types: [ started ]
   schedule:
-    - cron: 55 */11 * * *
+    - cron: 48 2 * * *
 
 jobs:
   healthcheck:
