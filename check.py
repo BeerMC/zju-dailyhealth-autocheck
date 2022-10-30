@@ -340,7 +340,7 @@ if __name__ == '__main__':
     # 因为是github action版本，所以不加上循环多人打卡功能   
     account = os.getenv("account")
     password = os.getenv("password")
-    time.sleep(random.randint(1, 500))
+    time.sleep(random.randint(1, 50))
     s = HealthCheckInHelper(account, password, delay_run=True)
     s.run() 
  
